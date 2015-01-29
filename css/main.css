@@ -52,7 +52,7 @@ section#jumbotron {
     width:100%;
     height:1000px;
     background:url(image/jumbotron.JPG) no-repeat;
-	background:black;
+	background:lightgreen;
     background-size: cover;
     margin:0 auto;
 }
