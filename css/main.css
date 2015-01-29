@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    font: 100% serif;
+    margin:0;
+    padding:0;
+}
+
+header {
+    background:#7CD9FE;
+    color:#000;
+    width:100%;
+}
+
+header #author {
+    padding-top:127px;
+    background: url(../image/author1.jpg)no-repeat;
+    border-radius: 50%;
+    width:10%;
+    border:10px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display:inline-block;
+    padding:15px;
+}
+
+header nav ul li a {
+    text-decoration:none;
+    padding:15px;
+    display: block;
+    color:#fff;
+    font-size:1.5em;
+    transition:all 2s ease;
+}
+
+header nav ul li a:hover {
+    border-bottom:5px solid hotPink;
+}
+
+section#jumbotron {
+    width:100%;
+    height:1000px;
+    background:url(../image/jumbotron.JPG) no-repeat;
+    background-size: cover;
+    margin:0 auto;
+}
+
+section#jumbotron h1 {
+    color:#fff;
+    padding:100px;
+    line-height: 3em;
+    font:2em Verdana, Helvetica,sans-serif;
+}
+
+section#jumbotron a {
+    text-decoration:none;
+    color:#fff;
+    display:inline-block;
+    padding:25px;
+    padding-left:70px;
+    padding-right:70px;
+    margin-top:50px;
+    font-size: 2em;
+    text-align: left;
+    border:1px solid #fff;
+    -webkit-transition:all 2s ease;
+    -moz-transition:all 2s ease;
+    -o-transition:all 2s ease;
+    -ms-transition:all 2s ease;
+}
+
+section#jumbotron a:hover {
+    background:#7CD9FE;
+}
+
+section#about-me {
+    width:100%;
+}
+
+section#about-me h1 {
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 4em;
+}
+
+section#about-me .col-1,.col-2 {
+    width:40%;
+    float: left;
+    margin-left:90px;
+    text-align: left;
+    margin-bottom: 30px;
+    line-height: 2em;
+    font-size: 1.5em;
+}
+
+section#about-me button {
+    clear: left;
+    display: block;
+    width:15%;
+    color: white;
+    padding:15px;
+    margin:50px auto;
+    border:0;
+    outline: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    background: #cdeb8b; /* Old browsers */
+background: -moz-linear-gradient(top, #cdeb8b 0%, #cdeb8b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8b), color-stop(100%,#cdeb8b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* IE10+ */
+background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%); /* W3C */
+    transition:all 2s ease;
+    cursor:pointer;
+}
+
+section#about-me button:hover {
+    background: #9dd53a;
+}
+
+section#portfolio {
+    width:100%;
+    clear: left;
+}
+
+section#portfolio h1 {
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 4em;
+}
+
+section#portfolio .col-3,.col-4,.col-5,.col-6 {
+    width:20%;
+    height:auto;
+    margin:10px auto;
+    float:left;
+    margin-left: 30px;
+}
+
+section#portfolio .col-7,.col-8,.col-9,.col-10 {
+    width:20%;
+    height:auto;
+    margin:10px auto;
+    float:left;
+    margin-left: 30px;
+}
+
+section#portfolio .col-11,.col-12,.col-13,.col-14 {
+    width:20%;
+    height:auto;
+    margin:10px auto;
+    float:left;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+section#contact-us {
+    width:100%;
+    clear: left;
+}
+
+section#contact-us h1 {
+    margin-top:10px;
+    margin-bottom: 20px;
+    font-size: 4em;
+}
+
+section#contact-us form {
+    width:90%;
+    margin:10px auto;
+}
+
+section#contact-us form label {
+    display: block;
+    width:50%;
+    margin:10px auto;
+    font-size: 1.5em;
+}
+
+section#contact-us form .padd {
+    width:50%;
+    padding:20px;
+}
+
+section#contact-us input[type="submit"] {
+    display: block;
+    width:20%;
+    font-size: 1.2em;
+    color:white;
+    margin:10px auto;
+    padding:15px;
+    border:0;
+    border-radius:5px;
+    outline: none;
+    background: #9dd53a; /* Old browsers */
+background: #cdeb8b; /* Old browsers */
+background: -moz-linear-gradient(top, #cdeb8b 0%, #cdeb8b 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8b), color-stop(100%,#cdeb8b)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* IE10+ */
+background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%); /* W3C */
+    transition:all 2s ease;
+    cursor:pointer;
+}
+
+section#contact-us input[type="submit"]:hover {
+    background: #9dd53a;
+}
+
+footer {
+    width:100%;
+    background:#5fa026;
+    overflow: hidden;
+}
+
+footer nav {
+    width: 30%;
+    margin-left:50px;
+    float: left;
+}
+
+footer nav h2 {
+    text-align: left;
+    margin-left:50px;
+    margin-top: 20px;
+    font-size: 3em;
+}
+
+footer nav ul {
+    list-style: none;
+    
+}
+
+footer nav ul li a {
+    text-decoration:none;
+    display: block;
+    padding:15px;
+    text-align: left;
+    color:#fff;
+}
+
+footer .social-connect {
+    width:30%;
+    float:left;
+}
+
+footer .social-connect h2 {
+   margin-top: 20px;
+    font-size: 3em;
+}
+
+
+footer .social-connect ul {
+    list-style:none;
+}
+
+footer .social-connect ul li {
+    display:inline-block;
+    color:#fff;
+    cursor: pointer;
+}
+
+footer .social-connect ul li:nth-child(1)  {
+    background: url(../image/result.png) no-repeat 10px 10px;
+    height:40px;
+    width:50px;
+}
+
+footer .social-connect ul li:nth-child(2)  {
+    background: url(../image/result.png) no-repeat 10px -30px;
+    height:40px;
+    width:50px
+}
+
+footer .social-connect ul li:nth-child(3)  {
+    background: url(../image/result.png) no-repeat 10px -75px;
+    height:40px;
+    width:50px
+}
+
+
+footer .policy {
+    width:30%;
+    float:left;
+    margin-top:50px;
+    color:#fff;
+    line-height: 1.5em;
+}
+
+footer .policy span {
+    color:hotPink;
+    cursor: pointer;
+}
+
+footer .policy span:hover {
+    text-decoration:underline;
+    color:#000;
+}
+
+
