@@ -51,8 +51,8 @@ header nav ul li a:hover {
 section#jumbotron {
     width:100%;
     height:1000px;
-    background:url(image/jumbotron.JPG) no-repeat;
 	background:lightgreen;
+    background:url(../image/jumbotron.JPG) no-repeat;
     background-size: cover;
     margin:0 auto;
 }
