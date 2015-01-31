@@ -59,8 +59,7 @@ section#jumbotron {
 section#jumbotron h1 {
     color:#fff;
     padding:100px;
-    line-height: 3em;
-    font:2em Verdana, Helvetica,sans-serif;
+    font:2em 'PT Serif', serif;
 }
 
 section#jumbotron a {
@@ -92,6 +91,7 @@ section#about-me h1 {
     margin-top:20px;
     margin-bottom: 20px;
     font-size: 4em;
+    font-family: 'Orbitron', sans-serif;
 }
 
 section#about-me .col-1,.col-2 {
@@ -102,6 +102,7 @@ section#about-me .col-1,.col-2 {
     margin-bottom: 30px;
     line-height: 2em;
     font-size: 1.5em;
+    font-family: 'PT Serif', serif;
 }
 
 section#about-me button {
@@ -140,6 +141,7 @@ section#portfolio h1 {
     margin-top:20px;
     margin-bottom: 20px;
     font-size: 4em;
+    font-family: 'Orbitron', sans-serif;
 }
 
 img {
@@ -180,6 +182,7 @@ section#contact-us h1 {
     margin-top:10px;
     margin-bottom: 20px;
     font-size: 4em;
+    font-family: 'Orbitron', sans-serif;
 }
 
 section#contact-us form {
@@ -246,6 +249,7 @@ footer nav h2 {
     margin-left:50px;
     margin-top: 20px;
     font-size: 3em;
+    font-family: 'Orbitron', sans-serif;
 }
 
 footer nav ul {
@@ -269,7 +273,8 @@ footer .social-connect {
 
 footer .social-connect h2 {
    margin-top: 20px;
-    font-size: 3em;
+   font-size: 3em;
+   font-family: 'Orbitron', sans-serif;
 }
 
 
