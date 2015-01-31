@@ -1,6 +1,6 @@
 /* Mobile layout */
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media only screen and (min-width:320px) and (max-width:480px) {
    body {
     text-align: center;
     font: 100% serif;
@@ -51,7 +51,7 @@ header nav ul li a:hover {
 
 section#jumbotron {
     width:250px;
-    background:url(../image/jumbotron.JPG) no-repeat;
+    background:url(../image/jumbotron.jpg) no-repeat;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -339,7 +339,7 @@ footer .policy span:hover {
 }
 
 
-@media screen and (min-width:480px) and (max-width:768px)  {
+@media only screen and (min-width:480px) and (max-width:768px)  {
     
     body {
     text-align: center;
@@ -679,7 +679,7 @@ footer .policy span:hover {
 
 /* Tablet Layout */
 
-@media screen and (min-width:768px) and (max-width:1024px) {
+@media only screen and (min-width:768px) and (max-width:1024px) {
     body {
     text-align: center;
     font: 100% serif;
@@ -831,7 +831,7 @@ section#portfolio h1 {
     margin-bottom: 20px;
     font-size: 4em;
 }
-
+    
 section#portfolio .col-3,.col-4,.col-5,.col-6 {
     width:20%;
     height:auto;
