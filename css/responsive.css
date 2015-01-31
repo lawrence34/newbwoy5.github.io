@@ -18,7 +18,7 @@ header {
 
 header #author {
     padding-top:127px;
-    background: url(../image/author1.jpg)no-repeat;
+    background: url(../img/author1.jpg)no-repeat;
     border-radius: 50%;
     width:50%;
     border:10px solid #fff;
@@ -51,7 +51,7 @@ header nav ul li a:hover {
 
 section#jumbotron {
     width:250px;
-    background:url(../image/jumbotron.jpg) no-repeat;
+    background:url(../img/jumbotron.jpg) no-repeat;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -298,13 +298,13 @@ footer .social-connect ul li {
 }
 
 footer .social-connect ul li:nth-child(1)  {
-    background: url(../image/result.png) no-repeat 10px 10px;
+    background: url(../img/result.png) no-repeat 10px 10px;
     height:40px;
     width:50px;
 }
 
 footer .social-connect ul li:nth-child(2)  {
-    background: url(../image/result.png) no-repeat 10px -30px;
+    background: url(../img/result.png) no-repeat 10px -30px;
     height:40px;
     width:50px
 }
@@ -358,7 +358,7 @@ header {
 
 header #author {
     padding-top:127px;
-    background: url(../image/author1.jpg)no-repeat;
+    background: url(../img/author1.jpg)no-repeat;
     border-radius: 50%;
     width:27%;
     border:10px solid #fff;
@@ -391,7 +391,7 @@ header nav ul li a:hover {
 
 section#jumbotron {
     width:450px;
-    background:url(../image/jumbotron.JPG) no-repeat;
+    background:url(../img/jumbotron.JPG) no-repeat;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -638,19 +638,19 @@ footer .social-connect ul li {
 }
 
 footer .social-connect ul li:nth-child(1)  {
-    background: url(../image/result.png) no-repeat 10px 10px;
+    background: url(../img/result.png) no-repeat 10px 10px;
     height:40px;
     width:50px;
 }
 
 footer .social-connect ul li:nth-child(2)  {
-    background: url(../image/result.png) no-repeat 10px -30px;
+    background: url(../img/result.png) no-repeat 10px -30px;
     height:40px;
     width:50px
 }
 
 footer .social-connect ul li:nth-child(3)  {
-    background: url(../image/result.png) no-repeat 10px -75px;
+    background: url(../img/result.png) no-repeat 10px -75px;
     height:40px;
     width:50px
 }
@@ -697,7 +697,7 @@ header {
 
 header #author {
     padding-top:127px;
-    background: url(../image/author1.jpg)no-repeat;
+    background: url(../img/author1.jpg)no-repeat;
     border-radius: 50%;
     width:17%;
     border:10px solid #fff;
@@ -731,7 +731,7 @@ header nav ul li a:hover {
 section#jumbotron {
     width:750px;
     height:1000px;
-    background:url(../image/jumbotron.JPG) no-repeat;
+    background:url(../img/jumbotron.JPG) no-repeat;
     background-size: cover;
     margin:0 auto;
     margin-left:auto;
@@ -1012,19 +1012,19 @@ footer .social-connect ul li {
 }
 
 footer .social-connect ul li:nth-child(1)  {
-    background: url(../image/result.png) no-repeat 10px 10px;
+    background: url(../img/result.png) no-repeat 10px 10px;
     height:40px;
     width:50px;
 }
 
 footer .social-connect ul li:nth-child(2)  {
-    background: url(../image/result.png) no-repeat 10px -30px;
+    background: url(../img/result.png) no-repeat 10px -30px;
     height:40px;
     width:50px
 }
 
 footer .social-connect ul li:nth-child(3)  {
-    background: url(../image/result.png) no-repeat 10px -75px;
+    background: url(../img/result.png) no-repeat 10px -75px;
     height:40px;
     width:50px
 }
