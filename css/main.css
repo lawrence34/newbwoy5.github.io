@@ -45,7 +45,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    border-bottom:5px solid hotPink;
+    border-bottom:5px solid #9dd53a;
 }
 
 section#jumbotron {
