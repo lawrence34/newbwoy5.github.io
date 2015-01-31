@@ -2,32 +2,6 @@
     margin: 0;
 }
 
-@-webkit-keyframes 'animateBackground' {
-    0% {
-        background:#415F9D;
-    }
-    
-    20% {
-        background:#96419D;
-    }
-    
-    40% {
-        background:#479D94;
-    }
-    
-    60% {
-        background:#C20495;
-    }
-    
-    80% {
-        background:#FC9F9F;
-    }
-    
-    100% {
-        background:#7B9FFF;
-    }
-}
-
 @keyframes 'animateBackground' {
     0% {
         background:#FFC2CE;
@@ -54,6 +28,20 @@
     }
 }
 
+@keyframes 'backgroundChange' {
+    0% {
+        background:#FF6C5D;
+    }
+    
+    50% {
+        background:#FF8781;
+    }
+    
+    100% {
+        background:#A81406;
+    }
+}
+
 hr {
     width:200px;
     height:10px;
@@ -62,6 +50,7 @@ hr {
     margin:0 auto;
     margin-bottom:50px;
     -webkit-animation:animateBackground 2s infinite;
+    -moz-animation:animateBackground 2s infinite;
             animation:animateBackground 2s infinite;
 }
 
@@ -136,11 +125,7 @@ section#jumbotron a {
     font-size: 2em;
     text-align: left;
     border:1px solid #fff;
-    -webkit-transition:all 2s ease;
-    -moz-transition:all 2s ease;
-    -o-transition:all 2s ease;
-    -ms-transition:all 2s ease;
-        transition:all 2s ease;
+    transition:all 2s ease;
     
 }
 
@@ -183,18 +168,9 @@ section#about-me button {
     cursor: pointer;
     font-size: 1.2em;
     cursor:pointer;
-    background: #cdeb8b; /* Old browsers */
-    background: -moz-linear-gradient(top, #cdeb8b 0%, #cdeb8b 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8b), color-stop(100%,#cdeb8b)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* IE10+ */
-    background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%); /* W3C */
-    -webkit-transition:all 2s ease;
-    -moz-transition:all 2s ease;
-    -o-transition:all 2s ease;
-    -ms-transition:all 2s ease;
-        transition:all 2s ease;
+    background: #cdeb8b;
+    background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%);
+    transition:all 2s ease;
 }
 
 section#about-me button:hover {
@@ -242,6 +218,25 @@ section#portfolio .col-11,.col-12,.col-13,.col-14 {
     margin-bottom: 50px;
 }
 
+section#portfolio a {
+    clear: left;
+    text-decoration:none;
+    display: block;
+    width:20%;
+    font-size: 1.2em;
+    color:white;
+    margin:70px auto;
+    padding:15px;
+    border:0;
+    cursor:pointer;
+    border-radius:5px;
+    outline: none;
+    background: #9dd53a;
+    background: #cdeb8b;
+    background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%);
+    animation:backgroundChange 2s infinite;
+}
+
 section#contact-us {
     width:100%;
     clear: left;
@@ -283,18 +278,13 @@ section#contact-us input[type="submit"] {
     margin:10px auto;
     padding:15px;
     border:0;
+    cursor:pointer;
     border-radius:5px;
     outline: none;
-    background: #9dd53a; /* Old browsers */
-background: #cdeb8b; /* Old browsers */
-background: -moz-linear-gradient(top, #cdeb8b 0%, #cdeb8b 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8b), color-stop(100%,#cdeb8b)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* IE10+ */
-background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%); /* W3C */
+    background: #9dd53a;
+    background: #cdeb8b;
+    background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%);
     transition:all 2s ease;
-    cursor:pointer;
 }
 
 section#contact-us input[type="submit"]:hover {
@@ -346,9 +336,10 @@ footer .social-connect h2 {
    font-family: 'Orbitron', sans-serif;
 }
 
-
 footer .social-connect ul {
     list-style:none;
+    margin-left:-100px;
+    position:relative;
 }
 
 footer .social-connect ul li {
@@ -357,24 +348,41 @@ footer .social-connect ul li {
     cursor: pointer;
 }
 
-footer .social-connect ul li:nth-child(1)  {
-    background: url(../img/result.png) no-repeat 10px 10px;
+footer .social-connect ul li a#behance  {
+    background: url(../img/spirite.png) no-repeat 10px 10px;
     height:40px;
     width:50px;
+    display: block;
+    text-decoration: none;
+    margin-right:10px;
+    margin-top:30px;
 }
 
-footer .social-connect ul li:nth-child(2)  {
-    background: url(../img/result.png) no-repeat 10px -30px;
+footer .social-connect ul li a#twitter  {
+    background: url(../img/spirite.png) no-repeat 10px -34px;
     height:40px;
-    width:50px
+    width:50px;
+    display:block;
+    text-decoration: none;
+    margin-right:10px;
 }
 
-footer .social-connect ul li:nth-child(3)  {
-    background: url(../img/result.png) no-repeat 10px -75px;
+footer .social-connect ul li a#instagram  {
+    background: url(../img/spirite.png) no-repeat 10px -75px;
     height:40px;
-    width:50px
+    width:50px;
+    display:block;
+    text-decoration: none;
+    margin-right:10px;
 }
 
+footer .social-connect ul li a#skype  {
+    background: url(../img/spirite.png) no-repeat 10px -117px;
+    height:40px;
+    width:50px;
+    display:block;
+    text-decoration: none;
+}
 
 footer .policy {
     width:30%;
@@ -393,5 +401,3 @@ footer .policy span:hover {
     text-decoration:underline;
     color:#000;
 }
-
-

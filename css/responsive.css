@@ -1,16 +1,9 @@
 /* Mobile layout */
 
 @media only screen and (min-width:320px) and (max-width:480px) {
-   body {
-    text-align: center;
-    font: 100% serif;
-    margin:0;
-    padding:0;
-}
-
+  
 header {
     background:#7CD9FE;
-    color:#000;
     width:250px;
     margin-left:auto;
     margin-right: auto;
@@ -27,28 +20,6 @@ header #author {
 }
 
 
-header nav ul {
-    list-style: none;
-}
-
-header nav ul li {
-    display:block;
-    padding:10px;
-}
-
-header nav ul li a {
-    text-decoration:none;
-    padding:15px;
-    display: block;
-    color:#fff;
-    font-size:1.5em;
-    transition:all 0s ease;
-}
-
-header nav ul li a:hover {
-    border-bottom:5px;
-}
-
 section#jumbotron {
     width:250px;
     background:url(../img/jumbotron.jpg) no-repeat;
@@ -58,31 +29,17 @@ section#jumbotron {
 }
 
 section#jumbotron h1 {
-    color:#fff;
     padding:10px;
     padding-top:200px;
     font:1.5em 'PT Serif', serif;
 }
 
 section#jumbotron a {
-    text-decoration:none;
-    color:#fff;
     display:inline-block;
     padding:25px;
     padding-left:30px;
     padding-right:30px;
     margin-top:50px;
-    font-size: 2em;
-    text-align: left;
-    border:1px solid #fff;
-    -webkit-transition:all 2s ease;
-    -moz-transition:all 2s ease;
-    -o-transition:all 2s ease;
-    -ms-transition:all 2s ease;
-}
-
-section#jumbotron a:hover {
-    background:#7CD9FE;
 }
 
 section#about-me {
@@ -91,52 +48,16 @@ section#about-me {
     margin-right:auto;
 }
 
-section#about-me h1 {
-    margin-top:20px;
-    margin-bottom: 20px;
-    font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
-}
-
 section#about-me .col-1,.col-2 {
     width:90%;
     float: none;
     margin-left:auto;
     margin-right: auto;
     margin-bottom: 30px;
-    line-height: 2em;
-    font-family: 'PT Serif', serif;
 }
 
 section#about-me button {
-    clear: left;
-    display: block;
     width:90%;
-    padding:15px;
-    margin:50px auto;
-    color:white;
-    font-size: 1.2em;
-    border:0;
-    outline: none;
-    border-radius:5px;
-    cursor: pointer;
-    background: #cdeb8b; /* Old browsers */
-background: -moz-linear-gradient(top, #cdeb8b 0%, #cdeb8b 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8b), color-stop(100%,#cdeb8b)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* IE10+ */
-background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%); /* W3C */
-    -webkit-transition:all 2s ease;
-    -moz-transition:all 2s ease;
-    -o-transition:all 2s ease;
-    -ms-transition:all 2s ease;
-    transition:all 2s ease;
-    cursor:pointer;
-}
-
-section#about-me button:hover {
-    background: #9dd53a;
 }
 
 section#portfolio {
@@ -144,13 +65,6 @@ section#portfolio {
     clear:none;
     margin-left: auto;
     margin-right: auto;
-}
-
-section#portfolio h1 {
-    margin-top:20px;
-    margin-bottom: 20px;
-    font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
 }
 
 section#portfolio .col-3,.col-4,.col-5,.col-6 {
@@ -178,7 +92,6 @@ section#portfolio .col-11,.col-12,.col-13,.col-14 {
     float:left;
     margin-left:auto;
     margin-right: auto;
-    margin-bottom: 50px;
 }
 
 section#contact-us {
@@ -187,24 +100,9 @@ section#contact-us {
     margin-left: auto;
     margin-right: auto;
 }
-
-section#contact-us h1 {
-    margin-top:10px;
-    margin-bottom: 20px;
-    font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
-}
-
-section#contact-us form {
-    width:100%;
-    margin:10px auto;
-}
-
-section#contact-us form label {
-    display: block;
-    width:50%;
-    margin:10px auto;
-    font-size: 1.5em;
+    
+section#portfolio a {
+    width:80%;
 }
 
 section#contact-us form .padd {
@@ -213,33 +111,7 @@ section#contact-us form .padd {
 }
 
 section#contact-us input[type="submit"] {
-    display: block;
     width:90%;
-    margin:10px auto;
-    color: white;
-    font-size:1.2em;
-    padding:15px;
-    border:0;
-    border-radius:5px;
-    outline: none;
-    background: #9dd53a; /* Old browsers */
-background: #cdeb8b; /* Old browsers */
-background: -moz-linear-gradient(top, #cdeb8b 0%, #cdeb8b 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8b), color-stop(100%,#cdeb8b)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* IE10+ */
-background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%); /* W3C */
-    -webkit-transition:all 2s ease;
-    -moz-transition:all 2s ease;
-    -o-transition:all 2s ease;
-    -ms-transition:all 2s ease;
-    transition:all 2s ease;
-    cursor:pointer;
-}
-
-section#contact-us input[type="submit"]:hover {
-    background: #9dd53a;
 }
 
 footer {
@@ -258,25 +130,8 @@ footer nav {
 }
 
 footer nav h2 {
-    text-align: center;
     margin-left:auto;
     margin-right: auto;
-    margin-top: 20px;
-    font-size: 3em;
-    font-family: 'Orbitron', sans-serif;
-}
-
-footer nav ul {
-    list-style: none;
-    
-}
-
-footer nav ul li a {
-    text-decoration:none;
-    display: block;
-    padding:15px;
-    text-align: left;
-    color:#fff;
 }
 
 footer .social-connect {
@@ -291,36 +146,15 @@ footer .social-connect h2 {
    font-size: 3em;
   font-family: 'Orbitron', sans-serif;
 }
-
-
+    
 footer .social-connect ul {
     list-style:none;
 }
 
-footer .social-connect ul li {
-    display:inline-block;
-    color:#fff;
-    cursor: pointer;
+footer .social-connect ul li a#behance  {
+    margin-right:0;
+    margin-left: 42px;
 }
-
-footer .social-connect ul li:nth-child(1)  {
-    background: url(../img/result.png) no-repeat 10px 10px;
-    height:40px;
-    width:50px;
-}
-
-footer .social-connect ul li:nth-child(2)  {
-    background: url(../img/result.png) no-repeat 10px -30px;
-    height:40px;
-    width:50px
-}
-
-footer .social-connect ul li:nth-child(3)  {
-    background: url(../image/result.png) no-repeat 10px -75px;
-    height:40px;
-    width:50px
-}
-
 
 footer .policy {
     width:90%;
@@ -328,40 +162,19 @@ footer .policy {
     margin-top:50px;
     margin-left: auto;
     margin-right: auto;
-    color:#fff;
-    line-height: 1.5em;
-}
-
-footer .policy span {
-    color:hotPink;
-    cursor: pointer;
-}
-
-footer .policy span:hover {
-    text-decoration:underline;
-    color:#000;
 }
 
 }
-
 
 @media only screen and (min-width:480px) and (max-width:768px)  {
     
-    body {
-    text-align: center;
-    font: 100% serif;
-    margin:0;
-    padding:0;
-}
 
 header {
-    background:#7CD9FE;
-    color:#000;
     width:450px;
     margin-left:auto;
     margin-right: auto;
 }
-
+    
 header #author {
     padding-top:127px;
     background: url(../img/author1.jpg)no-repeat;
@@ -371,24 +184,14 @@ header #author {
     margin-left: auto;
     margin-right: auto;
 }
-
-
-header nav ul {
-    list-style: none;
-}
-
+    
 header nav ul li {
     display:block;
-    padding:10px;
 }
 
 header nav ul li a {
     text-decoration:none;
     padding:15px;
-    display: block;
-    color:#fff;
-    font-size:1.5em;
-    transition:all 0s ease;
 }
 
 header nav ul li a:hover {
@@ -397,7 +200,6 @@ header nav ul li a:hover {
 
 section#jumbotron {
     width:450px;
-    background:url(../img/jumbotron.JPG) no-repeat;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -409,96 +211,35 @@ section#jumbotron h1 {
     padding-top:200px;
     font:1.5em 'PT Serif', serif;
 }
-
-section#jumbotron a {
-    text-decoration:none;
-    color:#fff;
-    display:inline-block;
-    padding:25px;
-    padding-left:30px;
-    padding-right:30px;
-    margin-top:50px;
-    font-size: 2em;
-    text-align: left;
-    border:1px solid #fff;
-    -webkit-transition:all 2s ease;
-    -moz-transition:all 2s ease;
-    -o-transition:all 2s ease;
-    -ms-transition:all 2s ease;
-}
-
-section#jumbotron a:hover {
-    background:#7CD9FE;
-}
-
+    
 section#about-me {
     width:450px;
     margin-left:auto;
     margin-right:auto;
 }
-
-section#about-me h1 {
-    margin-top:20px;
-    margin-bottom: 20px;
-    font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
-}
-
+    
 section#about-me .col-1,.col-2 {
     width:90%;
     float: none;
     margin-left:auto;
     margin-right: auto;
-    margin-bottom: 30px;
-    line-height: 2em;
-    font-family: 'PT Serif', serif;
 }
-
+    
 section#about-me button {
-    clear: left;
-    display: block;
     width:60%;
-    padding:15px;
-    margin:50px auto;
-    color:white;
-    font-size: 1.2em;
-    border:0;
-    outline: none;
-    border-radius:5px;
-    cursor: pointer;
-    background: #cdeb8b; /* Old browsers */
-background: -moz-linear-gradient(top, #cdeb8b 0%, #cdeb8b 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8b), color-stop(100%,#cdeb8b)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* IE10+ */
-background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%); /* W3C */
-    -webkit-transition:all 2s ease;
-    -moz-transition:all 2s ease;
-    -o-transition:all 2s ease;
-    -ms-transition:all 2s ease;
-    transition:all 2s ease;
-    cursor:pointer;
 }
-
+    
 section#about-me button:hover {
     background: #9dd53a;
 }
-
+ 
 section#portfolio {
     width:450px;
     clear:none;
     margin-left: auto;
     margin-right: auto;
 }
-
-section#portfolio h1 {
-    margin-top:20px;
-    margin-bottom: 20px;
-    font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
-}
-
+    
 section#portfolio .col-3,.col-4,.col-5,.col-6 {
     width:100%;
     height:auto;
@@ -524,7 +265,10 @@ section#portfolio .col-11,.col-12,.col-13,.col-14 {
     float:left;
     margin-left:auto;
     margin-right: auto;
-    margin-bottom: 50px;
+}
+    
+section#portfolio a {
+    width:50%;
 }
 
 section#contact-us {
@@ -533,59 +277,19 @@ section#contact-us {
     margin-left: auto;
     margin-right: auto;
 }
-
-section#contact-us h1 {
-    margin-top:10px;
-    margin-bottom: 20px;
-    font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
-}
-
+    
 section#contact-us form {
     width:100%;
     margin:10px auto;
 }
-
-section#contact-us form label {
-    display: block;
-    width:50%;
-    margin:10px auto;
-    font-size: 1.5em;
-}
-
+    
 section#contact-us form .padd {
     width:90%;
     padding:20px;
 }
 
 section#contact-us input[type="submit"] {
-    display: block;
     width:60%;
-    margin:10px auto;
-    color: white;
-    font-size:1.2em;
-    padding:15px;
-    border:0;
-    border-radius:5px;
-    outline: none;
-    background: #9dd53a; /* Old browsers */
-background: #cdeb8b; /* Old browsers */
-background: -moz-linear-gradient(top, #cdeb8b 0%, #cdeb8b 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8b), color-stop(100%,#cdeb8b)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* IE10+ */
-background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%); /* W3C */
-    -webkit-transition:all 2s ease;
-    -moz-transition:all 2s ease;
-    -o-transition:all 2s ease;
-    -ms-transition:all 2s ease;
-    transition:all 2s ease;
-    cursor:pointer;
-}
-
-section#contact-us input[type="submit"]:hover {
-    background: #9dd53a;
 }
 
 footer {
@@ -608,21 +312,10 @@ footer nav h2 {
     margin-left:auto;
     margin-right: auto;
     margin-top: 20px;
-    font-size: 3em;
-    font-family: 'Orbitron', sans-serif;
-}
-
-footer nav ul {
-    list-style: none;
-    
 }
 
 footer nav ul li a {
-    text-decoration:none;
-    display: block;
-    padding:15px;
     text-align: center;
-    color:#fff;
 }
 
 footer .social-connect {
@@ -632,75 +325,21 @@ footer .social-connect {
     margin-right: auto;
 }
 
-footer .social-connect h2 {
-   margin-top: 20px;
-   font-size: 3em;
-   font-family: 'Orbitron', sans-serif;
-}
-
-
-footer .social-connect ul {
-    list-style:none;
-}
-
-footer .social-connect ul li {
-    display:inline-block;
-    color:#fff;
-    cursor: pointer;
-}
-
-footer .social-connect ul li:nth-child(1)  {
-    background: url(../img/result.png) no-repeat 10px 10px;
-    height:40px;
-    width:50px;
-}
-
-footer .social-connect ul li:nth-child(2)  {
-    background: url(../img/result.png) no-repeat 10px -30px;
-    height:40px;
-    width:50px
-}
-
-footer .social-connect ul li:nth-child(3)  {
-    background: url(../img/result.png) no-repeat 10px -75px;
-    height:40px;
-    width:50px
-}
-
-
 footer .policy {
     width:100%;
     float:none;
     margin-top:50px;
     margin-left: auto;
     margin-right: auto;
-    color:#fff;
-    line-height: 1.5em;
 }
-
-footer .policy span {
-    color:hotPink;
-    cursor: pointer;
-}
-
-footer .policy span:hover {
-    text-decoration:underline;
-    color:#000;
-}
+    
 }
 
 /* Tablet Layout */
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
-    body {
-    text-align: center;
-    font: 100% serif;
-    margin:0;
-    padding:0;
-}
-
+   
 header {
-    background:#7CD9FE;
     color:#000;
     width:750px;
     margin-left: auto;
@@ -717,33 +356,9 @@ header #author {
     margin-right: auto;
 }
 
-
-header nav ul {
-    list-style: none;
-}
-
-header nav ul li {
-    display:inline-block;
-    padding:15px;
-}
-
-header nav ul li a {
-    text-decoration:none;
-    padding:15px;
-    display: block;
-    color:#fff;
-    font-size:1.5em;
-    transition:all 2s ease;
-}
-
-header nav ul li a:hover {
-    border-bottom:5px solid hotPink;
-}
-
 section#jumbotron {
     width:750px;
     height:1000px;
-    background:url(../img/jumbotron.JPG) no-repeat;
     background-size: cover;
     margin:0 auto;
     margin-left:auto;
@@ -756,81 +371,21 @@ section#jumbotron h1 {
     line-height: 3em;
     font:2em 'PT Serif', serif;
 }
-
-section#jumbotron a {
-    text-decoration:none;
-    color:#fff;
-    display:inline-block;
-    padding:25px;
-    padding-left:70px;
-    padding-right:70px;
-    margin-top:50px;
-    font-size: 2em;
-    text-align: left;
-    border:1px solid #fff;
-    -webkit-transition:all 2s ease;
-    -moz-transition:all 2s ease;
-    -o-transition:all 2s ease;
-    -ms-transition:all 2s ease;
-}
-
-section#jumbotron a:hover {
-    background:#7CD9FE;
-}
-
+    
 section#about-me {
     width:750px;
     margin-left: auto;
     margin-right: auto;
 }
-
-section#about-me h1 {
-    margin-top:20px;
-    margin-bottom: 20px;
-    font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
-}
-
+    
 section#about-me .col-1,.col-2 {
     width:40%;
     float: left;
     margin-left:70px;
-    margin-bottom: 30px;
-    text-align: left;
-    line-height: 2em;
-    font-size: 1.5em;
-    font-family: 'PT Serif', serif;
 }
 
 section#about-me button {
-    clear: left;
-    display: block;
     width:40%;
-    color: white;
-    padding:15px;
-    margin:50px auto;
-    border:0;
-    outline: none;
-    border-radius:5px;
-    cursor: pointer;
-    font-size: 1.2em;
-    background: #cdeb8b; /* Old browsers */
-background: -moz-linear-gradient(top, #cdeb8b 0%, #cdeb8b 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8b), color-stop(100%,#cdeb8b)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* IE10+ */
-background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%); /* W3C */
-    -webkit-transition:all 2s ease;
-    -moz-transition:all 2s ease;
-    -o-transition:all 2s ease;
-    -ms-transition:all 2s ease;
-    transition:all 2s ease;
-    cursor:pointer;
-}
-
-section#about-me button:hover {
-    background: #9dd53a;
 }
 
 section#portfolio {
@@ -838,13 +393,6 @@ section#portfolio {
     clear: left;
     margin-left: auto;
     margin-right: auto;
-}
-
-section#portfolio h1 {
-    margin-top:20px;
-    margin-bottom: 20px;
-    font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
 }
     
 section#portfolio .col-3,.col-4,.col-5,.col-6 {
@@ -888,7 +436,6 @@ section#portfolio .col-11,.col-12,.col-13,.col-14 {
     margin:10px auto;
     float:left;
     margin-left: 30px;
-    margin-bottom: 50px;
 }
     
 section#portfolio .col-10 {
@@ -910,6 +457,10 @@ section#portfolio .col-11 {
  section#portfolio .col-14 {
     margin-left:110px;
 }
+    
+section#portfolio a {
+    width:30%;
+}
 
 section#contact-us {
     width:750px;
@@ -918,25 +469,11 @@ section#contact-us {
     margin-right: auto;
 }
 
-section#contact-us h1 {
-    margin-top:10px;
-    margin-bottom: 20px;
-    font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
-}
-
 section#contact-us form {
     width:90%;
     margin:10px auto;
 }
-
-section#contact-us form label {
-    display: block;
-    width:50%;
-    margin:10px auto;
-    font-size: 1.5em;
-}
-
+    
 section#contact-us form .padd {
     width:60%;
     padding:20px;
@@ -945,31 +482,6 @@ section#contact-us form .padd {
 section#contact-us input[type="submit"] {
     display: block;
     width:30%;
-    font-size: 1.2em;
-    color:white;
-    margin:10px auto;
-    padding:15px;
-    border:0;
-    border-radius:5px;
-    outline: none;
-    background: #9dd53a; /* Old browsers */
-background: #cdeb8b; /* Old browsers */
-background: -moz-linear-gradient(top, #cdeb8b 0%, #cdeb8b 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cdeb8b), color-stop(100%,#cdeb8b)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, #cdeb8b 0%,#cdeb8b 100%); /* IE10+ */
-background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%); /* W3C */
-    -webkit-transition:all 2s ease;
-    -moz-transition:all 2s ease;
-    -o-transition:all 2s ease;
-    -ms-transition:all 2s ease;
-    transition:all 2s ease;
-    cursor:pointer;
-}
-
-section#contact-us input[type="submit"]:hover {
-    background: #9dd53a;
 }
 
 footer {
@@ -982,7 +494,7 @@ footer {
 
 footer nav {
     width: 30%;
-    margin-left:50px;
+    margin-left:0;
     float: left;
 }
 
@@ -993,77 +505,45 @@ footer nav h2 {
     font-size: 3em;
     font-family: 'Orbitron', sans-serif;
 }
-
-footer nav ul {
-    list-style: none;
     
-}
-
-footer nav ul li a {
-    text-decoration:none;
-    display: block;
-    padding:15px;
-    text-align: left;
-    color:#fff;
-}
-
 footer .social-connect {
     width:30%;
     float:left;
+    margin-left:90px;
 }
-
-footer .social-connect h2 {
-   margin-top: 20px;
-   font-size: 3em;
-   font-family: 'Orbitron', sans-serif;
-}
-
-
-footer .social-connect ul {
-    list-style:none;
-}
-
-footer .social-connect ul li {
-    display:inline-block;
-    color:#fff;
-    cursor: pointer;
-}
-
-footer .social-connect ul li:nth-child(1)  {
-    background: url(../img/result.png) no-repeat 10px 10px;
+ 
+footer .social-connect ul li a#behance  {
+    background: url(../img/spirite.png) no-repeat 10px 10px;
     height:40px;
     width:50px;
+    display: block;
+    text-decoration: none;
+    margin-right:0;
+    margin-top:30px;
+    margin-left: 42px;
 }
-
-footer .social-connect ul li:nth-child(2)  {
-    background: url(../img/result.png) no-repeat 10px -30px;
-    height:40px;
-    width:50px
-}
-
-footer .social-connect ul li:nth-child(3)  {
-    background: url(../img/result.png) no-repeat 10px -75px;
-    height:40px;
-    width:50px
-}
-
-
+    
 footer .policy {
     width:30%;
     float:left;
-    margin-top:50px;
-    color:#fff;
-    line-height: 1.5em;
+    margin-top:80px;
+    margin-left: -20px
 }
 
-footer .policy span {
-    color:hotPink;
-    cursor: pointer;
 }
 
-footer .policy span:hover {
-    text-decoration:underline;
-    color:#000;
-}
+/* Desktop Layout */
 
+@media only screen and (min-width:1324px) and (max-width:1920px) {
+    
+    header #author {
+    padding-top:127px;
+    background: url(../img/author1.jpg)no-repeat;
+    border-radius: 50%;
+    width:6%;
+    border:10px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
 }
