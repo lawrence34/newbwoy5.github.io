@@ -114,7 +114,7 @@ section#portfolio .col-7,.col-8,.col-9,.col-10 {
     margin-right: auto;
 }
     
-section#contact-us {
+section#contact-me {
     width:100%;
     clear:none;
     margin-left: auto;
@@ -125,12 +125,12 @@ section#portfolio a {
     width:80%;
 }
 
-section#contact-us form .padd {
+section#contact-me form .padd {
     width:90%;
     padding:20px;
 }
 
-section#contact-us input[type="submit"] {
+section#contact-me input[type="submit"] {
     width:90%;
 }
 
@@ -276,16 +276,18 @@ section#portfolio {
 }
     
 section#portfolio .col-3,.col-4,.col-5,.col-6 {
-    width:100%;
+    width:40%;
     height:auto;
     margin:10px auto;
+    margin-right:50px;
     float:left;
 }
 
 section#portfolio .col-7,.col-8,.col-9,.col-10 {
-    width:100%;
+    width:40%;
     height:auto;
     margin:10px auto;
+    margin-right:50px;
     float:left;
 }
  
@@ -293,24 +295,24 @@ section#portfolio a {
     width:50%;
 }
 
-section#contact-us {
+section#contact-me {
     width:100%;
     clear:none;
     margin-left: auto;
     margin-right: auto;
 }
     
-section#contact-us form {
+section#contact-me form {
     width:100%;
     margin:10px auto;
 }
     
-section#contact-us form .padd {
+section#contact-me form .padd {
     width:90%;
     padding:20px;
 }
 
-section#contact-us input[type="submit"] {
+section#contact-me input[type="submit"] {
     width:60%;
 }
 
@@ -460,24 +462,24 @@ section#portfolio a {
     width:30%;
 }
 
-section#contact-us {
+section#contact-me {
     width:100%;
     clear: left;
     margin-left: auto;
     margin-right: auto;
 }
 
-section#contact-us form {
+section#contact-me form {
     width:100%;
     margin:10px auto;
 }
     
-section#contact-us form .padd {
+section#contact-me form .padd {
     width:60%;
     padding:20px;
 }
 
-section#contact-us input[type="submit"] {
+section#contact-me input[type="submit"] {
     display: block;
     width:30%;
 }
