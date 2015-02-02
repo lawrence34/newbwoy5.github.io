@@ -11,10 +11,21 @@ $(document).ready(function() {
         alert("My Skype user name is newbwoy.dope, feel free to add me lets talk.");
     });
     
-    TweenMax.staggerFrom('img',0.5,{opacity:0,y:200,delay:0.5},0.2);
+    $('a[href="#about-me"]').click(function() {
+        $('html body').animate({'scrollTop':$('#about-me').offset().top},1000);
+    });
     
-    var tl = new TimelineLite({paused:true});
-    tl.to("#jumbotron h1", 1, {x:750});
+    $('a[href="#portfolio"]').click(function() {
+        $('html body').animate({'scrollTop':$('#portfolio').offset().top},1000);
+    });
+    
+    $('a[href="#contact-me"]').click(function() {
+        $('html body').animate({'scrollTop':$('#contact-me').offset().top},1000);
+    });
+    
+    $("#top").click(function() {
+        $('html body').animate({'scrollTop':0},1000);
+    });
 });
 
  
