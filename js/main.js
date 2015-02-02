@@ -9,7 +9,8 @@ $(document).ready(function() {
     
     TweenMax.staggerFrom('img',0.5,{opacity:0,y:200,delay:0.5},0.2);
     
-    
+    var tl = new TimelineLite({paused:true});
+    tl.to("#jumbotron h1", 1, {x:750});
 });
 
  
