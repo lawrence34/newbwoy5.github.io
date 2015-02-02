@@ -13,7 +13,7 @@ header #author {
     padding-top:12px;
     background: url();
     border-radius:0;
-    width:30%;
+    width:32%;
     border:0;
 }
     
@@ -371,15 +371,24 @@ header {
 }
 
 header #author {
-    padding-top:127px;
-    background: url(../img/author1.jpg)no-repeat;
+    padding-top:12px;
+    background: url();
     border-radius: 50%;
-    width:17%;
-    border:10px solid #fff;
+    width:37%;
+    border:10px;
     margin-left: auto;
     margin-right: auto;
 }
-
+    
+header #author1 {
+    display: inline;
+    border:10px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width:50%;
+}
+    
 section#jumbotron {
     width:100%;
     height:1000px;

@@ -2,6 +2,32 @@
     margin: 0;
 }
 
+@-webkit-keyframes 'animateBackground' {
+    0% {
+        background:#FFC2CE;
+    }
+    
+    20% {
+        background:#9CF08E;
+    }
+    
+    40% {
+        background:#D9FCC4;
+    }
+    
+    60% {
+        background:#AAFE9C;
+    }
+    
+    80% {
+        background:#FC9F9F;
+    }
+    
+    100% {
+        background:#7B9FFF;
+    }
+}
+
 @keyframes 'animateBackground' {
     0% {
         background:#FFC2CE;
@@ -28,6 +54,22 @@
     }
 }
 
+
+@-webkit-keyframes 'backgroundChange' {
+    0% {
+        background:#FF6C5D;
+    }
+    
+    50% {
+        background:#FF8781;
+    }
+    
+    100% {
+        background:#A81406;
+    }
+}
+
+
 @keyframes 'backgroundChange' {
     0% {
         background:#FF6C5D;
@@ -49,7 +91,8 @@ hr {
     border:0;
     margin:0 auto;
     margin-bottom:50px;
-    animation:animateBackground 2s infinite;
+    -webkit-animation:animateBackground 2s infinite;
+            animation:animateBackground 2s infinite;
 }
 
 body {
@@ -240,7 +283,8 @@ section#portfolio a {
     background: #9dd53a;
     background: #cdeb8b;
     background: linear-gradient(to bottom, #cdeb8b 0%,#cdeb8b 100%);
-    animation:backgroundChange 2s infinite;
+    -webkit-animation:backgroundChange 2s infinite;
+            animation:backgroundChange 2s infinite;
 }
 
 section#contact-me {
@@ -410,10 +454,14 @@ footer .policy span:hover {
 
 div#scroll {
     position:relative;
+    clear: both;
 }
 
 span#top {
     font-size:10em;
     cursor: pointer;
     display: block;
+    position:fixed;
+    bottom:0;
+    right:0;
 }
