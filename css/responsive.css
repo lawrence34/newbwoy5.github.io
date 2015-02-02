@@ -4,24 +4,55 @@
   
 header {
     background:#7CD9FE;
-    width:250px;
+    width:100%;
     margin-left:auto;
     margin-right: auto;
 }
 
 header #author {
-    padding-top:127px;
-    background: url(../img/author1.jpg)no-repeat;
+    padding-top:12px;
+    background: url();
     border-radius: 50%;
-    width:50%;
-    border:10px solid #fff;
+    width:37%;
+    border:10px;
     margin-left: auto;
     margin-right: auto;
 }
+    
+header #author1 {
+    display: inline;
+    border:10px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width:100%;
+}
 
+header nav ul li a {
+    text-decoration:none;
+    padding:15px;
+    display: block;
+    color:#fff;
+    font-size:1.5em;
+    transition:all 2s ease;
+}
+
+header nav ul li {
+    display:block;
+    padding:15px;
+    margin-left: -50px;
+}
+    
+header nav ul li:hover {
+    border-bottom:5px;
+}
+
+header nav ul li:first-child {
+    border-bottom:5px;
+}
 
 section#jumbotron {
-    width:250px;
+    width:100%;
     background:url(../img/jumbotron.jpg) no-repeat;
     background-size: cover;
     margin-left: auto;
@@ -43,13 +74,13 @@ section#jumbotron a {
 }
 
 section#about-me {
-    width:250px;
+    width:100%;
     margin-left:auto;
     margin-right:auto;
 }
 
-section#about-me .col-1,.col-2 {
-    width:90%;
+section#about-me .col-1 {
+    width:100%;
     float: none;
     margin-left:auto;
     margin-right: auto;
@@ -61,7 +92,7 @@ section#about-me button {
 }
 
 section#portfolio {
-    width:250px;
+    width:100%;
     clear:none;
     margin-left: auto;
     margin-right: auto;
@@ -84,18 +115,9 @@ section#portfolio .col-7,.col-8,.col-9,.col-10 {
     margin-left:auto;
     margin-right: auto;
 }
-
-section#portfolio .col-11,.col-12,.col-13,.col-14 {
-    width:100%;
-    height:auto;
-    margin:10px auto;
-    float:left;
-    margin-left:auto;
-    margin-right: auto;
-}
-
+    
 section#contact-us {
-    width:250px;
+    width:100%;
     clear:none;
     margin-left: auto;
     margin-right: auto;
@@ -115,7 +137,7 @@ section#contact-us input[type="submit"] {
 }
 
 footer {
-    width:250px;
+    width:100%;
     background:#5fa026;
     overflow: hidden;
     margin-left: auto;
@@ -123,7 +145,7 @@ footer {
 }
 
 footer nav {
-    width: 90%;
+    width: 100%;
     margin-left:auto;
     margin-right: auto;
     float: none;
@@ -132,10 +154,11 @@ footer nav {
 footer nav h2 {
     margin-left:auto;
     margin-right: auto;
+    text-align: center;
 }
 
 footer .social-connect {
-    width:90%;
+    width:100%;
     float:none;
     margin-left: auto;
     margin-right: auto;
@@ -157,7 +180,7 @@ footer .social-connect ul li a#behance  {
 }
 
 footer .policy {
-    width:90%;
+    width:100%;
     float:none;
     margin-top:50px;
     margin-left: auto;
@@ -170,21 +193,30 @@ footer .policy {
     
 
 header {
-    width:450px;
+    width:100%;
     margin-left:auto;
     margin-right: auto;
 }
     
 header #author {
-    padding-top:127px;
-    background: url(../img/author1.jpg)no-repeat;
+    padding-top:12px;
+    background: url();
     border-radius: 50%;
-    width:27%;
-    border:10px solid #fff;
+    width:37%;
+    border:10px;
     margin-left: auto;
     margin-right: auto;
 }
     
+header #author1 {
+    display: inline;
+    border:10px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width:100%;
+}
+
 header nav ul li {
     display:block;
 }
@@ -192,14 +224,19 @@ header nav ul li {
 header nav ul li a {
     text-decoration:none;
     padding:15px;
+    margin-left: -50px;
 }
 
-header nav ul li a:hover {
+header nav ul li:hover {
     border-bottom:5px;
 }
 
+header nav ul li:first-child {
+    border-bottom:5px;
+}
+ 
 section#jumbotron {
-    width:450px;
+    width:100%;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -213,13 +250,13 @@ section#jumbotron h1 {
 }
     
 section#about-me {
-    width:450px;
+    width:100%;
     margin-left:auto;
     margin-right:auto;
 }
     
-section#about-me .col-1,.col-2 {
-    width:90%;
+section#about-me .col-1{
+    width:100%;
     float: none;
     margin-left:auto;
     margin-right: auto;
@@ -234,7 +271,7 @@ section#about-me button:hover {
 }
  
 section#portfolio {
-    width:450px;
+    width:100%;
     clear:none;
     margin-left: auto;
     margin-right: auto;
@@ -244,35 +281,22 @@ section#portfolio .col-3,.col-4,.col-5,.col-6 {
     width:100%;
     height:auto;
     margin:10px auto;
-    margin-left:auto;
-    margin-right: auto;
-    float:none;
+    float:left;
 }
 
 section#portfolio .col-7,.col-8,.col-9,.col-10 {
     width:100%;
     height:auto;
     margin:10px auto;
-    float:none;
-    margin-left:auto;
-    margin-right: auto;
-}
-
-section#portfolio .col-11,.col-12,.col-13,.col-14 {
-    width:100%;
-    height:auto;
-    margin:10px auto;
     float:left;
-    margin-left:auto;
-    margin-right: auto;
 }
-    
+ 
 section#portfolio a {
     width:50%;
 }
 
 section#contact-us {
-    width:450px;
+    width:100%;
     clear:none;
     margin-left: auto;
     margin-right: auto;
@@ -293,7 +317,7 @@ section#contact-us input[type="submit"] {
 }
 
 footer {
-    width:450px;
+    width:100%;
     background:#5fa026;
     overflow: hidden;
     margin-left: auto;
@@ -301,7 +325,7 @@ footer {
 }
 
 footer nav {
-    width: 90%;
+    width: 100%;
     margin-left:auto;
     margin-right: auto;
     float: none;

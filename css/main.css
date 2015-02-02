@@ -49,9 +49,7 @@ hr {
     border:0;
     margin:0 auto;
     margin-bottom:50px;
-    -webkit-animation:animateBackground 2s infinite;
-    -moz-animation:animateBackground 2s infinite;
-            animation:animateBackground 2s infinite;
+    animation:animateBackground 2s infinite;
 }
 
 body {
@@ -77,6 +75,9 @@ header #author {
     margin-right: auto;
 }
 
+#author1 {
+    display:none;
+}
 
 header nav ul {
     list-style: none;
@@ -85,6 +86,7 @@ header nav ul {
 header nav ul li {
     display:inline-block;
     padding:15px;
+    transition:all 2s ease;
 }
 
 header nav ul li a {
@@ -93,10 +95,13 @@ header nav ul li a {
     display: block;
     color:#fff;
     font-size:1.5em;
-    transition:all 2s ease;
 }
 
-header nav ul li a:hover {
+header nav ul li:hover {
+    border-bottom:5px solid hotPink;
+}
+
+header nav ul li:first-child {
     border-bottom:5px solid hotPink;
 }
 
@@ -111,7 +116,7 @@ section#jumbotron {
 section#jumbotron h1 {
     color:#fff;
     padding:100px;
-    font:2em 'PT Serif', serif;
+    font:3em 'PT Serif', serif;
 }
 
 section#jumbotron a {
@@ -144,22 +149,24 @@ section#about-me h1 {
     font-family: 'Orbitron', sans-serif;
 }
 
-section#about-me .col-1,.col-2 {
-    width:40%;
-    float: left;
-    margin-left:90px;
+section#about-me .col-1 {
+    width:80%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: left;
+    color: gray;
     margin-bottom: 30px;
     line-height: 2em;
     font-size: 1.5em;
     font-family: 'PT Serif', serif;
 }
 
-section#about-me button {
+section#about-me a {
     clear: left;
     display: block;
     width:15%;
     color: white;
+    text-decoration: none;
     padding:15px;
     margin:50px auto;
     border:0;
@@ -173,7 +180,7 @@ section#about-me button {
     transition:all 2s ease;
 }
 
-section#about-me button:hover {
+section#about-me a:hover {
     background: #9dd53a;
 }
 
@@ -189,6 +196,14 @@ section#portfolio h1 {
     font-family: 'Orbitron', sans-serif;
 }
 
+section#portfolio p {
+    text-align: left;
+    padding-left:20px;
+    color:gray;
+    font-size: 1.5em;
+    font-family: 'PT Serif', serif;
+}
+
 img {
     cursor: pointer;
 }
@@ -198,7 +213,7 @@ section#portfolio .col-3,.col-4,.col-5,.col-6 {
     height:auto;
     margin:10px auto;
     float:left;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 section#portfolio .col-7,.col-8,.col-9,.col-10 {
@@ -206,16 +221,7 @@ section#portfolio .col-7,.col-8,.col-9,.col-10 {
     height:auto;
     margin:10px auto;
     float:left;
-    margin-left: 30px;
-}
-
-section#portfolio .col-11,.col-12,.col-13,.col-14 {
-    width:20%;
-    height:auto;
-    margin:10px auto;
-    float:left;
-    margin-left: 30px;
-    margin-bottom: 50px;
+    margin-left: 20px;
 }
 
 section#portfolio a {
@@ -338,7 +344,7 @@ footer .social-connect h2 {
 
 footer .social-connect ul {
     list-style:none;
-    margin-left:-100px;
+    margin-left:-80px;
     position:relative;
 }
 
