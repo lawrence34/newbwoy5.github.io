@@ -189,7 +189,7 @@ section#about-me h1 {
     margin-top:20px;
     margin-bottom: 20px;
     font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 section#about-me .col-1 {
@@ -236,7 +236,7 @@ section#portfolio h1 {
     margin-top:20px;
     margin-bottom: 20px;
     font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 section#portfolio p {
@@ -296,7 +296,7 @@ section#contact-me h1 {
     margin-top:10px;
     margin-bottom: 20px;
     font-size: 4em;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 section#contact-me form {
@@ -358,7 +358,7 @@ footer nav h2 {
     margin-left:50px;
     margin-top: 20px;
     font-size: 3em;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 footer nav ul {
@@ -383,7 +383,7 @@ footer .social-connect {
 footer .social-connect h2 {
    margin-top: 20px;
    font-size: 3em;
-   font-family: 'Orbitron', sans-serif;
+   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 footer .social-connect ul {
