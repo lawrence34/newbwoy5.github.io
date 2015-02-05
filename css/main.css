@@ -309,6 +309,7 @@ section#contact-me form label {
     width:50%;
     margin:10px auto;
     font-size: 1.5em;
+    text-align: left;
 }
 
 section#contact-me form .padd {
@@ -458,7 +459,7 @@ div#scroll {
 }
 
 span#top {
-    font-size:10em;
+    font-size:4em;
     cursor: pointer;
     display: block;
     position:fixed;
