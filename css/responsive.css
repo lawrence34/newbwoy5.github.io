@@ -166,16 +166,6 @@ footer .social-connect {
     margin-right: auto;
 }
 
-footer .social-connect h2 {
-   margin-top: 20px;
-   font-size: 3em;
-  font-family: 'Orbitron', sans-serif;
-}
-    
-footer .social-connect ul {
-    list-style:none;
-}
-
 footer .social-connect ul li a#behance  {
     margin-right:0;
     margin-left: 42px;

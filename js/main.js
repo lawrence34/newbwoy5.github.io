@@ -12,19 +12,19 @@ $(document).ready(function() {
     });
     
     $('a[href="#about-me"]').click(function() {
-        $('html body').animate({'scrollTop':$('#about-me').offset().top},1000);
+        $('html,body').animate({'scrollTop':$('#about-me').offset().top},1000);
     });
     
     $('a[href="#portfolio"]').click(function() {
-        $('html body').animate({'scrollTop':$('#portfolio').offset().top},1000);
+        $('html,body').animate({'scrollTop':$('#portfolio').offset().top},1000);
     });
     
     $('a[href="#contact-me"]').click(function() {
-        $('html body').animate({'scrollTop':$('#contact-me').offset().top},1000);
+        $('html,body').animate({'scrollTop':$('#contact-me').offset().top},1000);
     });
     
     $("#top").click(function() {
-        $('html body').animate({'scrollTop':0},1000);
+        $('html,body').animate({'scrollTop':0},1000);
     });
 });
 
