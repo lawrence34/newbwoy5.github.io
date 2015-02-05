@@ -130,6 +130,10 @@ section#contact-me form .padd {
     padding:20px;
 }
 
+section#contact-me form label {
+    margin-left: 0;
+}
+
 section#contact-me input[type="submit"] {
     width:90%;
 }
@@ -311,6 +315,10 @@ section#contact-me form .padd {
     width:90%;
     padding:20px;
 }
+    
+section#contact-me form label {
+    margin-left: 0;
+}
 
 section#contact-me input[type="submit"] {
     width:60%;
@@ -486,6 +494,10 @@ section#contact-me form {
 section#contact-me form .padd {
     width:60%;
     padding:20px;
+}
+    
+section#contact-me form label {
+    margin-left: 18%;
 }
 
 section#contact-me input[type="submit"] {
