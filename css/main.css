@@ -16,7 +16,7 @@ header {
 }
 
 header #author {
-    padding-top:127px;
+    padding-top:10%;
     background: url(../img/author1.jpg)no-repeat;
     border-radius: 50%;
     width:10%;
@@ -35,7 +35,7 @@ header nav ul {
 
 header nav ul li {
     display:inline-block;
-    padding:15px;
+    padding:0.5%;
     transition:all 2s ease;
 }
 
@@ -155,7 +155,7 @@ section#portfolio p {
     line-height: 2em;
     font-size: 1.5em;
     width:80%;
-    margin-left:7%;
+    margin-left:8.5%;
     font-family: arial, serif;
 }
 
@@ -167,7 +167,7 @@ table tr {
     display: block;
     width:90%;
     margin:2% auto;
-    margin-left:10%;
+    margin-left:12%;
 }
 
 section#portfolio a {
