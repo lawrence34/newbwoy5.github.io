@@ -104,23 +104,16 @@ section#portfolio {
     width:100%;
     margin-left:0;
 }
-
-section#portfolio .col-3,.col-4,.col-5,.col-6 {
-    width:100%;
-    height:auto;
-    margin:10px auto;
-    margin-left:auto;
-    margin-right: auto;
-    float:none;
+    
+table tr {
+    display:inline;
+    width:30%;
+    margin:2% auto;
+    margin-left:0;
 }
 
-section#portfolio .col-7,.col-8,.col-9,.col-10 {
-    width:100%;
-    height:auto;
-    margin:10px auto;
-    float:none;
-    margin-left:auto;
-    margin-right: auto;
+table tr td {
+    display: inline;
 }
     
 section#contact-me {
@@ -277,7 +270,7 @@ section#portfolio {
     margin-right: auto;
 }
     
-    section#portfolio p {
+section#portfolio p {
     text-align: left;
     padding-left:0;
     color:gray;
@@ -287,22 +280,16 @@ section#portfolio {
     margin-left:0;
 }
     
-section#portfolio .col-3,.col-4,.col-5,.col-6 {
-    width:40%;
-    height:auto;
-    margin:10px auto;
-    margin-right:50px;
-    float:left;
+table tr {
+    display:inline;
+    width:30%;
+    margin:2% auto;
+    margin-left:0;
 }
-
-section#portfolio .col-7,.col-8,.col-9,.col-10 {
-    width:40%;
-    height:auto;
-    margin:10px auto;
-    margin-right:50px;
-    float:left;
+table tr td:nth-child(3), td:nth-child(4) {
+    display: none;
 }
- 
+    
 section#portfolio a {
     width:50%;
 }
@@ -443,49 +430,21 @@ section#portfolio {
     margin-right: auto;
 }
     
-section#portfolio .col-3,.col-4,.col-5,.col-6 {
-    width:20%;
-    height:auto;
-    margin:10px;
-    float:left;
-}
-    
-section#portfolio .col-4 {
-    margin-left:100px;
-}
-    
-section#portfolio .col-5 {
-    margin-left:100px;
-}
-
-section#portfolio .col-7,.col-8,.col-9,.col-10 {
-    width:20%;
-    height:auto;
-    margin:10px auto;
-    float:left;
-    margin-left: 30px;
-}
-    
-section#portfolio .col-7 {
-    margin-left:100px;
-}
-    
- section#portfolio .col-8 {
-    margin-left:110px;
-}
-    
- section#portfolio .col-9 {
-    margin-left:9px;
-}
-    
-section#portfolio .col-10 {
-    margin-left:110px;
-}
-    
 section#portfolio a {
-    width:30%;
+    width:50%;
 }
-
+    
+ table tr {
+    display:inline;
+    width:30%;
+    margin:2% auto;
+    margin-left:0;
+}
+    
+table tr td:nth-child(4) {
+    display: none;
+}
+    
 section#contact-me {
     width:100%;
     clear: left;
@@ -566,9 +525,17 @@ footer .policy {
     background: url(../img/author1.jpg)no-repeat;
     border-radius: 50%;
     width:8%;
-    border:10px solid #fff;
+    border:5px solid #0b0b0b;
     margin-left: auto;
     margin-right: auto;
+}
+    
+    table tr {
+    margin-left:12%;
+}
+    
+    section#contact-me form label {
+    margin-left: 23.5%;
 }
     
 }

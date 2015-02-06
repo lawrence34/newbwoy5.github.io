@@ -163,24 +163,14 @@ img {
     cursor: pointer;
 }
 
-section#portfolio .col-3,.col-4,.col-5,.col-6 {
-    width:20%;
-    height:auto;
-    margin:10px auto;
-    float:left;
-    margin-left: 20px;
-}
-
-section#portfolio .col-7,.col-8,.col-9,.col-10 {
-    width:20%;
-    height:auto;
-    margin:10px auto;
-    float:left;
-    margin-left: 20px;
+table tr {
+    display: block;
+    width:90%;
+    margin:2% auto;
+    margin-left:10%;
 }
 
 section#portfolio a {
-    clear: left;
     text-decoration:none;
     display: block;
     width:20%;
@@ -355,7 +345,7 @@ footer .policy {
 }
 
 footer .policy span {
-    color:hotPink;
+    color:#5ea326;
     cursor: pointer;
 }
 
