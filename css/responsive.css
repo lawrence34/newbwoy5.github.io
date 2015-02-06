@@ -94,6 +94,11 @@ section#portfolio {
     margin-right: auto;
 }
     
+  section#portfolio a {
+    width:45%;
+    font-size:0.9em;
+}
+    
  section#portfolio p {
     text-align: left;
     padding-left:0;
@@ -165,10 +170,14 @@ footer .social-connect {
     margin-left: auto;
     margin-right: auto;
 }
+    
+footer .social-connect h2 {
+   font-size: 2em;
+}
 
 footer .social-connect ul li a#behance  {
     margin-right:0;
-    margin-left: 42px;
+    margin-left: 0;
 }
 
 footer .policy {
