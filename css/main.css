@@ -78,12 +78,12 @@ section#jumbotron h1 {
     color:#fff;
     padding:100px;
     font:3em 'Open Sans Condensed', sans-serif;
-    font-family: 'Titillium Web', sans-serif;
 }
 
 section#jumbotron a {
     text-decoration:none;
     color:#fff;
+    font-family:'Open Sans Condensed', sans-serif;
     display:inline-block;
     padding:25px;
     padding-left:70px;

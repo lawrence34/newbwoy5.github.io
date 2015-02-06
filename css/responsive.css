@@ -20,6 +20,7 @@ header #author1 {
     display: inline;
     margin-left: auto;
     margin-right: auto;
+    border:5px solid #0b0b0b;
     border-radius: 50%;
     width:100%;
 }
@@ -58,7 +59,7 @@ section#jumbotron {
 section#jumbotron h1 {
     padding:10px;
     padding-top:200px;
-    font:1.5em 'PT Serif', serif;
+    font:1.5em 'Open Sans Condensed', sans-serif;
 }
 
 section#jumbotron a {
@@ -199,7 +200,7 @@ header #author {
     
 header #author1 {
     display: inline;
-    border:10px solid #fff;
+    border:5px solid #0b0b0b;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
@@ -235,7 +236,7 @@ section#jumbotron h1 {
     color:#fff;
     padding:10px;
     padding-top:200px;
-    font:1.5em 'PT Serif', serif;
+    font:1.5em 'Open Sans Condensed', sans-serif;
 }
     
 section#about-me {
@@ -376,7 +377,7 @@ header #author {
     
 header #author1 {
     display: inline;
-    border:10px solid #fff;
+    border:5px solid #0b0b0b;
     margin-left: auto;
     margin-right: auto;
     border-radius: 50%;
@@ -396,7 +397,7 @@ section#jumbotron h1 {
     color:#fff;
     padding:100px;
     line-height: 3em;
-    font:2em 'PT Serif', serif;
+    font:2em 'Open Sans Condensed', sans-serif;
 }
     
 section#about-me {
