@@ -94,6 +94,16 @@ section#portfolio {
     margin-left: auto;
     margin-right: auto;
 }
+    
+ section#portfolio p {
+    text-align: left;
+    padding-left:0;
+    color:gray;
+    line-height: 2em;
+    font-size: 1.5em;
+    width:100%;
+    margin-left:0;
+}
 
 section#portfolio .col-3,.col-4,.col-5,.col-6 {
     width:100%;
