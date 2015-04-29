@@ -222,6 +222,10 @@ input:focus, textarea:focus {
     outline:3px solid #5fa026;
 }
 
+textarea {
+    resize: none;
+}
+
 section#contact-me input[type="submit"] {
     display: block;
     width:20%;
