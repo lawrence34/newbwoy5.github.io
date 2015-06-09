@@ -76,11 +76,11 @@ header nav ul li a {
 }
 
 header nav ul li:hover {
-    border-bottom:5px solid #0D67FF;
+    border-bottom:5px solid #000;
 }
 
 header nav ul li:first-child {
-    border-bottom:5px solid #0D67FF;
+    border-bottom:5px solid #000;
 }
 
 section#intro {
