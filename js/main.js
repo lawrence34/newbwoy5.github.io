@@ -1,11 +1,4 @@
 $(document).ready(function() {
-   
-    $('img:not(#author1)').hover(function() {
-        $(this).fadeTo('normal',.5);
-    }, 
-      function() {
-        $(this).fadeTo('normal',.9);
-    });
     
     $('#skype').click(function() {
         alert("My Skype user name is newbwoy.dope, feel free to add me lets talk.");
@@ -26,6 +19,30 @@ $(document).ready(function() {
     $("#top").click(function() {
         $('html,body').animate({'scrollTop':0},1000);
     });
+    
+    
 });
 
- 
+
+  var typingVal = typing.innerHTML;
+
+  var start = 0;
+
+  var end = 0;
+
+setInterval(function() {
+    
+       
+     var output = typingVal.substr(start,end);
+        
+     typing.innerHTML = output + "<span id='cursor'>|</span>";
+    
+      end = end + 1;
+    
+    if(output === typingVal) {
+        
+      clearInterval(50);
+         
+    }
+
+},100);

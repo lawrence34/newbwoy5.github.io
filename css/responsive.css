@@ -1,7 +1,13 @@
 /* Mobile layout */
 
-@media only screen and (min-width:240px)and (max-width:320px) {
-   header {
+@media screen and (min-width:240px)and (max-width:320px) {
+
+     
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    
+header {
     width:100%;
     margin-left:auto;
     margin-right: auto;
@@ -13,7 +19,7 @@ header #author {
     border-radius:0;
     width:32%;
     border:0;
-}
+} 
     
 header #author1 {
     display: inline;
@@ -23,7 +29,7 @@ header #author1 {
     border-radius: 50%;
     width:100%;
 }
-
+    
 header nav ul li a {
     text-decoration:none;
     padding:15px;
@@ -35,7 +41,7 @@ header nav ul li a {
 
 header nav ul li {
     display:block;
-    padding:15px;
+    padding:5px;
     margin-left: -50px;
 }
     
@@ -46,160 +52,77 @@ header nav ul li:hover {
 header nav ul li:first-child {
     border-bottom:5px;
 }
-
-section#jumbotron {
+    
+section#intro {
     width:100%;
-    background:url(../img/jumbotron.jpg) no-repeat;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
+    height:700px;
+    margin:0 auto;
 }
 
-section#jumbotron h1 {
-    padding:10px;
-    padding-top:200px;
-    font:1.5em 'Open Sans Condensed', sans-serif;
+section#intro h1 {
+    color:#fff;
+    padding:40px;
+    margin-top: 50px;
+    font:1.7em 'Open Sans Condensed', sans-serif;
 }
-
-section#jumbotron a {
-    display:inline-block;
-    padding:25px;
-    padding-left:30px;
-    padding-right:30px;
-    margin-top:50px;
-}
-
+    
 section#about-me {
     width:100%;
-    margin-left:auto;
-    margin-right:auto;
+    height:980px;
 }
-
-section#about-me .col-1 {
-    width:100%;
-    float: none;
-    margin-left:auto;
-    margin-right: auto;
-    margin-bottom: 30px;
+    
+section#about-me .me {
+    text-align: left;
+    font:1.5em bold 'Open Sans Condensed', sans-serif;
 }
-
+    
 section#about-me a {
     width:90%;
 }
 
 section#portfolio {
     width:100%;
-    clear:none;
-    margin-left: auto;
-    margin-right: auto;
+    height:1100px;
 }
     
-  section#portfolio a {
-    width:45%;
-    font-size:0.9em;
-}
-    
- section#portfolio p {
-    text-align: left;
-    padding-left:0;
-    color:gray;
-    line-height: 2em;
-    font-size: 1.5em;
-    width:100%;
-    margin-left:0;
-}
-    
-table tr {
-    display:inline;
-    width:30%;
-    margin:2% auto;
-    margin-left:0;
-}
-
-table tr td {
-    display: inline;
-}
-    
-section#contact-me {
-    width:100%;
-    clear:none;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-section#portfolio a {
-    width:80%;
-}
-
-section#contact-me form .padd {
-    width:90%;
-    padding:20px;
-}
-
-section#contact-me form label {
-    margin-left: 0;
-}
-
-section#contact-me input[type="submit"] {
-    width:90%;
-}
-
-footer {
-    width:100%;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer nav {
-    width: 100%;
-    margin-left:auto;
-    margin-right: auto;
+section#portfolio #github {
     float: none;
-}
-
-footer nav h2 {
-    margin-left:auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-footer .social-connect {
-    width:100%;
-    float:none;
     margin-left: auto;
     margin-right: auto;
-}
+    margin-bottom: 10px;
+}  
     
-footer .social-connect h2 {
-   font-size: 2em;
-}
-
-footer .social-connect ul li a#behance  {
-    margin-right:0;
-    margin-left: 5%;
-}
-
-footer .policy {
-    width:100%;
-    float:none;
-    margin-top:50px;
+section#portfolio #behance {
+    float: none;
     margin-left: auto;
     margin-right: auto;
-}
-
+    margin-bottom: 10px;
+}  
     
+section#portfolio #codepen {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}  
+    
+footer .social-connect ul li {
+    display: inline-block;
+    padding-left: 0;
 }
 
-@media only screen and (min-width:320px) and (max-width:480px) {
   
-header {
+}
+
+@media screen and (min-width:480px) and (max-width:768px)  {
+    
+ header {
     width:100%;
     margin-left:auto;
     margin-right: auto;
 }
 
-header #author {
+ header #author {
     padding-top:12px;
     background: url();
     border-radius:0;
@@ -207,7 +130,7 @@ header #author {
     border:0;
 }
     
-header #author1 {
+    header #author1 {
     display: inline;
     margin-left: auto;
     margin-right: auto;
@@ -215,7 +138,7 @@ header #author1 {
     border-radius: 50%;
     width:100%;
 }
-
+    
 header nav ul li a {
     text-decoration:none;
     padding:15px;
@@ -227,7 +150,7 @@ header nav ul li a {
 
 header nav ul li {
     display:block;
-    padding:15px;
+    padding:5px;
     margin-left: -50px;
 }
     
@@ -238,330 +161,71 @@ header nav ul li:hover {
 header nav ul li:first-child {
     border-bottom:5px;
 }
-
-section#jumbotron {
-    width:100%;
-    background:url(../img/jumbotron.jpg) no-repeat;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section#jumbotron h1 {
-    padding:10px;
-    padding-top:200px;
-    font:1.5em 'Open Sans Condensed', sans-serif;
-}
-
-section#jumbotron a {
-    display:inline-block;
-    padding:25px;
-    padding-left:30px;
-    padding-right:30px;
-    margin-top:50px;
-}
-
-section#about-me {
-    width:100%;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-section#about-me .col-1 {
-    width:100%;
-    float: none;
-    margin-left:auto;
-    margin-right: auto;
-    margin-bottom: 30px;
-}
-
-section#about-me a {
-    width:90%;
-}
-
-section#portfolio {
-    width:100%;
-    clear:none;
-    margin-left: auto;
-    margin-right: auto;
-}
     
- section#portfolio p {
-    text-align: left;
-    padding-left:0;
-    color:gray;
-    line-height: 2em;
-    font-size: 1.5em;
+section#intro {
     width:100%;
-    margin-left:0;
-}
-    
-table tr {
-    display:inline;
-    width:30%;
-    margin:2% auto;
-    margin-left:0;
+    height:700px;
+    margin:0 auto;
 }
 
-table tr td {
-    display: inline;
-}
-    
-section#contact-me {
-    width:100%;
-    clear:none;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-section#portfolio a {
-    width:80%;
-}
-
-section#contact-me form .padd {
-    width:90%;
-    padding:20px;
-}
-
-section#contact-me form label {
-    margin-left: 0;
-}
-
-section#contact-me input[type="submit"] {
-    width:90%;
-}
-
-footer {
-    width:100%;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer nav {
-    width: 100%;
-    margin-left:auto;
-    margin-right: auto;
-    float: none;
-}
-
-footer nav h2 {
-    margin-left:auto;
-    margin-right: auto;
-    text-align: center;
-}
-
-footer .social-connect {
-    width:100%;
-    float:none;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer .social-connect ul li a#behance  {
-    margin-right:0;
-    margin-left: 42px;
-}
-
-footer .policy {
-    width:100%;
-    float:none;
-    margin-top:50px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-}
-
-@media only screen and (min-width:480px) and (max-width:768px)  {
-    
-
-header {
-    width:100%;
-    margin-left:auto;
-    margin-right: auto;
-}
-    
-header #author {
-    padding-top:12px;
-    background: url();
-    border-radius: 50%;
-    width:37%;
-    border:10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-header #author1 {
-    display: inline;
-    border:5px solid #0b0b0b;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width:100%;
-}
-
-header nav ul li {
-    display:block;
-}
-
-header nav ul li a {
-    text-decoration:none;
-    padding:15px;
-    margin-left: -50px;
-}
-
-header nav ul li:hover {
-    border-bottom:5px;
-}
-
-header nav ul li:first-child {
-    border-bottom:5px;
-}
- 
-section#jumbotron {
-    width:100%;
-    background-size: cover;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section#jumbotron h1 {
+section#intro h1 {
     color:#fff;
-    padding:10px;
-    padding-top:200px;
-    font:1.5em 'Open Sans Condensed', sans-serif;
+    padding:40px;
+    margin-top: 50px;
+    font:1.7em 'Open Sans Condensed', sans-serif;
 }
     
 section#about-me {
     width:100%;
-    margin-left:auto;
-    margin-right:auto;
+    height:850px;
 }
     
-section#about-me .col-1{
-    width:100%;
-    float: none;
-    margin-left:auto;
-    margin-right: auto;
+section#about-me .me {
+    text-align: left;
+    font:1.5em bold 'Open Sans Condensed', sans-serif;
 }
     
 section#about-me a {
-    width:60%;
-}
-    
-section#about-me button:hover {
-    background: #9dd53a;
-}
- 
-section#portfolio {
-    width:100%;
-    clear:none;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-section#portfolio p {
-    text-align: left;
-    padding-left:0;
-    color:gray;
-    line-height: 2em;
-    font-size: 1.5em;
-    width:100%;
-    margin-left:0;
-}
-    
-table tr {
-    display:inline;
-    width:30%;
-    margin:2% auto;
-    margin-left:0;
-}
-table tr td:nth-child(3), td:nth-child(4) {
-    display: none;
-}
-    
-section#portfolio a {
     width:50%;
 }
-
-section#contact-me {
+    
+section#portfolio {
     width:100%;
-    clear:none;
-    margin-left: auto;
-    margin-right: auto;
+    height:1100px;
 }
     
-section#contact-me form {
-    width:100%;
-    margin:10px auto;
-}
-    
-section#contact-me form .padd {
-    width:90%;
-    padding:20px;
-}
-    
-section#contact-me form label {
-    margin-left: 0;
-}
-
-section#contact-me input[type="submit"] {
-    width:60%;
-}
-
-footer {
-    width:100%;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer nav {
-    width: 100%;
-    margin-left:auto;
-    margin-right: auto;
+section#portfolio #github {
     float: none;
-}
-
-footer nav h2 {
-    text-align: center;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: 20px;
-}
-
-footer nav ul li a {
-    text-align: center;
-}
-
-footer .social-connect {
-    width:100%;
-    float:none;
     margin-left: auto;
     margin-right: auto;
-}
-
-footer .policy {
-    width:100%;
-    float:none;
-    margin-top:50px;
+    margin-bottom: 10px;
+}  
+    
+section#portfolio #behance {
+    float: none;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
+}  
+    
+section#portfolio #codepen {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
+    
+footer .social-connect ul li {
+    display: inline-block;
+    padding-left: 0;
+}
+    
     
 }
 
 /* Tablet Layout */
 
-@media only screen and (min-width:768px) and (max-width:1024px) {
-   
-header {
-    color:#000;
-    width:100%;
-    margin-left: auto;
-    margin-right: auto;
-}
+@media screen and (min-width:768px) and (max-width:1024px) {
 
 header #author {
     padding-top:12px;
@@ -582,138 +246,35 @@ header #author1 {
     width:50%;
 }
     
-section#jumbotron {
-    width:100%;
-    height:1000px;
-    background-size: cover;
-    margin:0 auto;
-    margin-left:auto;
-    margin-right: auto;
-}
-
-section#jumbotron h1 {
-    color:#fff;
-    padding:100px;
-    line-height: 3em;
-    font:2em 'Open Sans Condensed', sans-serif;
-}
-    
 section#about-me {
     width:100%;
-    margin-left: auto;
-    margin-right: auto;
+    height:800px;
 }
     
-section#about-me .col-1{
-    width:100%;
-    float: left;
-    margin-left:70px;
-}
-
 section#about-me a {
-    width:40%;
-}
-
-section#portfolio {
-    width:100%;
-    clear: left;
-    margin-left: auto;
-    margin-right: auto;
-}
-    
-section#portfolio a {
     width:50%;
 }
     
- table tr {
-    display:block;
-    width:30%;
-    margin:2% auto;
-    margin-left: 9%;
-}
-    
-section#portfolio p {
-    margin-left:5%;
-}
-    
-table tr td:nth-child(4) {
-    display: none;
-}
-    
-section#contact-me {
-    width:100%;
-    clear: left;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-section#contact-me form {
-    width:100%;
-    margin:10px auto;
-}
-    
-section#contact-me form .padd {
-    width:60%;
-    padding:20px;
-}
-    
-section#contact-me form label {
-    margin-left: 18%;
-}
-
-section#contact-me input[type="submit"] {
-    display: block;
-    width:30%;
-}
-
-footer {
-    width:100%;
-    overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer nav {
-    width: 40%;
-    margin-left:0;
+section#portfolio #github {
     float: left;
-}
-
-footer nav h2 {
-    text-align: left;
-    margin-left:50px;
-    margin-top: 20px;
-    font-size: 3em;
-}
+    margin-left: 0;
+}  
     
-footer .social-connect {
-    width:40%;
-    float:left;
-    margin-left:0;
-}
- 
-footer .social-connect ul li a#behance  {
-    background: url(../img/spirite.png) no-repeat 10px 10px;
-    height:40px;
-    width:50px;
-    display: block;
-    text-decoration: none;
-    margin-right:0;
-    margin-top:30px;
-    margin-left: 42px;
-}
+section#portfolio #behance {
+    float: left;
+    margin-left: 10px;
+}  
     
-footer .policy {
-    width:20%;
-    float:left;
-    margin-left:0;
+section#portfolio #codepen {
+    float: left;
+    margin-left: 10px;
 }
 
 }
 
 /* Desktop Layout */
 
-@media only screen and (min-width:1324px) and (max-width:1920px) {
+@media screen and (min-width:1324px) and (max-width:1920px) {
     
     header #author {
     padding-top:127px;
@@ -723,14 +284,6 @@ footer .policy {
     border:5px solid #0b0b0b;
     margin-left: auto;
     margin-right: auto;
-}
-    
-    table tr {
-    margin-left:12%;
-}
-    
-    section#contact-me form label {
-    margin-left: 23.5%;
 }
     
 }
