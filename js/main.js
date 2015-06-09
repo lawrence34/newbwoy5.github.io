@@ -20,29 +20,26 @@ $(document).ready(function() {
         $('html,body').animate({'scrollTop':0},1000);
     });
     
+     var typingVal = typing.innerHTML;
+
+     var start = 0;
+
+     var end = 0;
+
+     setInterval(function() {
     
-});
-
-
-  var typingVal = typing.innerHTML;
-
-  var start = 0;
-
-  var end = 0;
-
-setInterval(function() {
-    
-       
      var output = typingVal.substr(start,end);
         
      typing.innerHTML = output + "<span id='cursor'>|</span>";
     
-      end = end + 1;
+     end = end + 1;
     
-    if(output === typingVal) {
+     if(output === typingVal) {
         
       clearInterval(50);
          
     }
 
-},100);
+    },100);
+
+  });

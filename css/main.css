@@ -321,9 +321,14 @@ footer .social-connect ul li a {
     background:#332F3E;
 }
 
+footer .social-connect #twitter{
+    margin-left: -70px;
+}
+
 footer .social-connect #twitter:hover {
     background: #64BBFF;
 }
+
 
 footer .social-connect #instagram:hover {
     background: #4E57FF;

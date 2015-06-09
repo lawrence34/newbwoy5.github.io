@@ -107,8 +107,21 @@ section#portfolio #codepen {
 }  
     
 footer .social-connect ul li {
-    display: inline-block;
+    display: block;
     padding-left: 0;
+    padding-top: 20px;
+}
+
+footer .social-connect ul li a {
+    display:inline-block;
+}
+    
+footer .social-connect #instagram {
+    margin-left: -70px;
+}
+
+footer .social-connect #skype {
+    margin-left: -70px;
 }
 
   
@@ -255,19 +268,51 @@ section#about-me a {
     width:50%;
 }
     
+section#portfolio i {
+    margin-top:60px;
+}
+    
 section#portfolio #github {
     float: left;
-    margin-left: 0;
+    width:220px;
+    height:220px;
+    margin-left: 20px;
+    transition: all 0s ease;
 }  
     
 section#portfolio #behance {
     float: left;
+    width:220px;
+    height:220px;
     margin-left: 10px;
+    transition: all 0s ease;
 }  
     
 section#portfolio #codepen {
     float: left;
+    width:220px;
+    height:220px;
     margin-left: 10px;
+    transition: all 1s ease;
+}
+    
+section#portfolio #github:hover{
+   transform:scale(1);
+}
+
+section#portfolio #behance:hover {
+   transform:scale(1);
+}
+    
+section#portfolio #codepen:hover {
+   transform:scale(1);
+}
+    
+.overlay,.overlay-1,.overlay-2{
+    width:220px;
+    height:220px;
+    opacity:0;
+    position: absolute;
 }
 
 }
