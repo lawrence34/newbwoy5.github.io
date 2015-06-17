@@ -18,9 +18,60 @@
     
 }
 
+@-moz-keyframes blink {
+    
+    0% {
+        opacity: 1;
+    }
+    
+    50% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+@-ms-keyframes blink {
+    
+    0% {
+        opacity: 1;
+    }
+    
+    50% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+@keyframes blink {
+    
+    0% {
+        opacity: 1;
+    }
+    
+    50% {
+        opacity: 0;
+    }
+    
+    100% {
+        opacity: 1;
+    }
+    
+}
+
 #cursor {
     opacity: 1;
     -webkit-animation:blink 0.5s infinite;
+    -moz-animation:blink 0.5s infinite;
+    -ms-animation:blink 0.5s infinite;
+         animation:blink 0.5s infinite;
 }
 
 body {
@@ -34,7 +85,6 @@ body {
 #jumbotron {
     background:url(../img/jumbotron.jpg)no-repeat;
     background-size: cover;
-    
 }
 
 header {
@@ -107,8 +157,7 @@ section#intro a {
     font-size: 2em;
     text-align: left;
     border:1px solid #fff;
-    transition:all 1s ease;
-    
+    transition:all 1s ease;    
 }
 
 section#intro a:hover {
