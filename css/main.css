@@ -74,6 +74,13 @@
          animation:blink 0.5s infinite;
 }
 
+html,body {
+    
+    position: relative;
+    transition: all 2s ease;
+    
+}
+
 body {
     text-align: center;
     font: 100% sans-serif;
