@@ -180,7 +180,7 @@ section#about-me {
 }
 
 section#about-me h1 {
-    padding-top:50px;
+    padding-top:40px;
     position: relative;
     margin-bottom: 20px;
     font-size: 3em;
@@ -221,7 +221,7 @@ section#portfolio {
 }
 
 section#portfolio h1 {
-    margin-top:20px;
+    padding-top:40px;
     margin-bottom: 60px;
     font-size: 3em;
     color: white;
